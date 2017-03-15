@@ -1,0 +1,25 @@
+//
+//  SimpleTravelPrefix.pch
+//  SimpleTravel
+//
+//  Created by hzyx01 on 17/3/15.
+//  Copyright © 2017年 hzyx01. All rights reserved.
+//
+
+
+//#define MeiToken_Prefix_pch
+//
+//#ifdef __OBJC__
+//
+
+
+
+#ifndef SimpleTravelPrefix_pch
+#define SimpleTravelPrefix_pch
+
+#import "BasesHeader.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SimpleTravelPrefix_pch */
