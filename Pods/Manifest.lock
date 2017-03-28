@@ -33,10 +33,14 @@ PODS:
   - IQKeyboardManager (3.3.5)
   - MJRefresh (3.1.10)
   - pop (1.0.9)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
   - SVProgressHUD (1.1)
   - YYImage (1.0.3):
     - YYImage/Core (= 1.0.3)
   - YYImage/Core (1.0.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -47,8 +51,10 @@ DEPENDENCIES:
   - IQKeyboardManager
   - MJRefresh
   - pop (~> 1.0)
+  - SDWebImage
   - SVProgressHUD
   - YYImage
+  - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
@@ -60,9 +66,11 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 128bcb96b3ec03ff87942cdd7fa7f44491aa3d08
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: 54de4d9ab38aa3f688da401f5766a5738084e7fb
   YYImage: 362f44ffba1fc498f2152060f3bb54ed84600981
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 2e918f96005e1ad3332226aeaf666f4e4a7cbc31
+PODFILE CHECKSUM: 15f9359b60a53d9db4fe3628f8b3e711c64e77a5
 
 COCOAPODS: 1.0.1

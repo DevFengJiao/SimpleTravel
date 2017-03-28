@@ -10,5 +10,6 @@ pod 'FMDB'
 pod 'AFNetworking'
 pod 'YYImage'
 pod 'pop', '~> 1.0'
-
+pod 'YYModel'
+pod 'SDWebImage'
 end
