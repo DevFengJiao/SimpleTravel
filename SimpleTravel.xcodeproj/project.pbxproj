@@ -15,6 +15,7 @@
 		58004C171E792AB9004B13FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58004C151E792AB9004B13FF /* LaunchScreen.storyboard */; };
 		58004C221E792AB9004B13FF /* SimpleTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58004C211E792AB9004B13FF /* SimpleTravelTests.m */; };
 		58004C2D1E792AB9004B13FF /* SimpleTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58004C2C1E792AB9004B13FF /* SimpleTravelUITests.m */; };
+		581334051E8BB4DF00D8D9D7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581334041E8BB4DF00D8D9D7 /* BaseViewController.m */; };
 		58B234181E793F41007730EC /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315B1E793F41007730EC /* Colours.m */; };
 		58B234191E793F41007730EC /* commonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315D1E793F41007730EC /* commonSet.m */; };
 		58B2341A1E793F41007730EC /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315F1E793F41007730EC /* NSDate+Category.m */; };
@@ -61,6 +62,8 @@
 		58004C281E792AB9004B13FF /* SimpleTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58004C2C1E792AB9004B13FF /* SimpleTravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTravelUITests.m; sourceTree = "<group>"; };
 		58004C2E1E792AB9004B13FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581334031E8BB4DF00D8D9D7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		581334041E8BB4DF00D8D9D7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		58B2315A1E793F41007730EC /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
 		58B2315B1E793F41007730EC /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
 		58B2315C1E793F41007730EC /* commonSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonSet.h; sourceTree = "<group>"; };
@@ -192,6 +195,57 @@
 			path = SimpleTravelUITests;
 			sourceTree = "<group>";
 		};
+		581333FC1E8BB41700D8D9D7 /* FourthViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FourthViewController;
+			sourceTree = "<group>";
+		};
+		581333FD1E8BB41700D8D9D7 /* SetViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SetViewController;
+			sourceTree = "<group>";
+		};
+		581333FE1E8BB41700D8D9D7 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdViewController;
+			sourceTree = "<group>";
+		};
+		581333FF1E8BB41700D8D9D7 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		581334001E8BB41700D8D9D7 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		581334011E8BB41700D8D9D7 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		581334021E8BB4C900D8D9D7 /* PublicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				581334031E8BB4DF00D8D9D7 /* BaseViewController.h */,
+				581334041E8BB4DF00D8D9D7 /* BaseViewController.m */,
+			);
+			path = PublicViewController;
+			sourceTree = "<group>";
+		};
 		581D7D0F1E89F84000746E2F /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +258,13 @@
 		581D7D101E89F84000746E2F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				581334021E8BB4C900D8D9D7 /* PublicViewController */,
+				581334011E8BB41700D8D9D7 /* LoginViewController */,
+				581333FF1E8BB41700D8D9D7 /* HomeViewController */,
+				581334001E8BB41700D8D9D7 /* SecondViewController */,
+				581333FE1E8BB41700D8D9D7 /* ThirdViewController */,
+				581333FC1E8BB41700D8D9D7 /* FourthViewController */,
+				581333FD1E8BB41700D8D9D7 /* SetViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -532,6 +593,7 @@
 				58B2341C1E793F41007730EC /* NSDateFormatter+Category.m in Sources */,
 				58B234191E793F41007730EC /* commonSet.m in Sources */,
 				58B2341E1E793F41007730EC /* NSString+util.m in Sources */,
+				581334051E8BB4DF00D8D9D7 /* BaseViewController.m in Sources */,
 				58B2341A1E793F41007730EC /* NSDate+Category.m in Sources */,
 				58B2341B1E793F41007730EC /* NSDate+timeAgo.m in Sources */,
 				58B2350F1E793F42007730EC /* NSDictionary+Utility.m in Sources */,
