@@ -9,7 +9,7 @@
 #import "FourthViewController.h"
 
 @interface FourthViewController ()
-//@property(nonatomic, assign) void(^block)();
+@property(nonatomic, assign) void(^block)();
 
 @property(nonatomic, weak) void(^blockA)();
 @end
@@ -19,12 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     int value = 10;
-//    void(^blockC)() = ^{
-//        NSLog(@"just a block === %d", value);
-//    };
-//    
-//    NSLog(@"%@", blockC);
-//    _block = blockC;
+    void(^blockC)() = ^{
+        NSLog(@"just a block === %d", value);
+    };
+    
+    NSLog(@"%@", blockC);
+    _block = blockC;
+    
     void(^ __weak blockA)() = ^{
         NSLog(@"just a block");
     };
