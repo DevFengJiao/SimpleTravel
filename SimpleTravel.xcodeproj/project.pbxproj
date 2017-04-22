@@ -16,6 +16,7 @@
 		58004C221E792AB9004B13FF /* SimpleTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58004C211E792AB9004B13FF /* SimpleTravelTests.m */; };
 		58004C2D1E792AB9004B13FF /* SimpleTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58004C2C1E792AB9004B13FF /* SimpleTravelUITests.m */; };
 		581334051E8BB4DF00D8D9D7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581334041E8BB4DF00D8D9D7 /* BaseViewController.m */; };
+		581334081E8BB56A00D8D9D7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581334071E8BB56A00D8D9D7 /* LoginViewController.m */; };
 		58B234181E793F41007730EC /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315B1E793F41007730EC /* Colours.m */; };
 		58B234191E793F41007730EC /* commonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315D1E793F41007730EC /* commonSet.m */; };
 		58B2341A1E793F41007730EC /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2315F1E793F41007730EC /* NSDate+Category.m */; };
@@ -26,6 +27,7 @@
 		58B2341F1E793F41007730EC /* SystemSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B231691E793F41007730EC /* SystemSupport.m */; };
 		58B2350F1E793F42007730EC /* NSDictionary+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2340F1E793F41007730EC /* NSDictionary+Utility.m */; };
 		58B235101E793F42007730EC /* UISegmentedControl+util.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B234111E793F41007730EC /* UISegmentedControl+util.m */; };
+		58CAAA991EA9BA080082B728 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CAAA981EA9BA080082B728 /* FourthViewController.m */; };
 		8E547E5AB7760573DC0F13C0 /* libPods-SimpleTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C810F0D586428F0C106EE770 /* libPods-SimpleTravel.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		58004C2E1E792AB9004B13FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		581334031E8BB4DF00D8D9D7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		581334041E8BB4DF00D8D9D7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		581334061E8BB56A00D8D9D7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		581334071E8BB56A00D8D9D7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		58B2315A1E793F41007730EC /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
 		58B2315B1E793F41007730EC /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
 		58B2315C1E793F41007730EC /* commonSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonSet.h; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		58B234101E793F41007730EC /* UISegmentedControl+util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+util.h"; sourceTree = "<group>"; };
 		58B234111E793F41007730EC /* UISegmentedControl+util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+util.m"; sourceTree = "<group>"; };
 		58B235111E79418F007730EC /* SimpleTravelPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTravelPrefix.pch; sourceTree = SOURCE_ROOT; };
+		58CAAA971EA9BA080082B728 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		58CAAA981EA9BA080082B728 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		A16ABCECEDB6EFF1FDC07CE6 /* Pods-SimpleTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTravel/Pods-SimpleTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		C474F21090263595EADFCC0F /* Pods-SimpleTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTravel/Pods-SimpleTravel.release.xcconfig"; sourceTree = "<group>"; };
 		C810F0D586428F0C106EE770 /* libPods-SimpleTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +204,8 @@
 		581333FC1E8BB41700D8D9D7 /* FourthViewController */ = {
 			isa = PBXGroup;
 			children = (
+				58CAAA971EA9BA080082B728 /* FourthViewController.h */,
+				58CAAA981EA9BA080082B728 /* FourthViewController.m */,
 			);
 			path = FourthViewController;
 			sourceTree = "<group>";
@@ -233,6 +241,8 @@
 		581334011E8BB41700D8D9D7 /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				581334061E8BB56A00D8D9D7 /* LoginViewController.h */,
+				581334071E8BB56A00D8D9D7 /* LoginViewController.m */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -596,12 +606,14 @@
 				581334051E8BB4DF00D8D9D7 /* BaseViewController.m in Sources */,
 				58B2341A1E793F41007730EC /* NSDate+Category.m in Sources */,
 				58B2341B1E793F41007730EC /* NSDate+timeAgo.m in Sources */,
+				58CAAA991EA9BA080082B728 /* FourthViewController.m in Sources */,
 				58B2350F1E793F42007730EC /* NSDictionary+Utility.m in Sources */,
 				58004C121E792AB9004B13FF /* SimpleTravel.xcdatamodeld in Sources */,
 				58B235101E793F42007730EC /* UISegmentedControl+util.m in Sources */,
 				58004C091E792AB9004B13FF /* AppDelegate.m in Sources */,
 				58004C061E792AB8004B13FF /* main.m in Sources */,
 				58B2341D1E793F41007730EC /* NSDictionary+Utility.m in Sources */,
+				581334081E8BB56A00D8D9D7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
