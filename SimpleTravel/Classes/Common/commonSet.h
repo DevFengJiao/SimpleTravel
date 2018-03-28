@@ -14,6 +14,7 @@
  *用来判断是否登录与token是否过期 
  */
 +(BOOL)isLoginAndToken;
+//////////dsafasdfdasfasdfsdf
 
 /*
  *用来配的
