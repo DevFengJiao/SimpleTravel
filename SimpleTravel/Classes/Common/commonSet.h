@@ -16,7 +16,7 @@
 +(BOOL)isLoginAndToken;
 //////////dsafasdfdasfasdfsdf
 //]asdfasdfasdf、枯叶ljkl999sdfasdf
-//kjghjkfjkhjk
+//kjghjkfjkhjk rfdsaf324dfsadfasdfsdfsf
 ///sdfasdf
 /*
  *用来配的
