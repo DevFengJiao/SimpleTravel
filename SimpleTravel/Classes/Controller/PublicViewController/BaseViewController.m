@@ -40,6 +40,9 @@
 -(void)dada{
     NSLog(@"dada");NSLog(@"dada");NSLog(@"dada");
 }
+-(void)fdea{
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
