@@ -37,6 +37,9 @@
     NSLog(@"fffff");
     NSLog(@"fffff");
 }
+-(void)dada{
+    NSLog(@"dada");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
