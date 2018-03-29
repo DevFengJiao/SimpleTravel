@@ -32,11 +32,7 @@
     NSLog(@"f1");
     NSLog(@"f1");
 }
--(void)fengj{
-    NSLog(@"fffff");
-    NSLog(@"fffff");
-    NSLog(@"fffff");
-}
+
 
 -(void)fdea{
     
