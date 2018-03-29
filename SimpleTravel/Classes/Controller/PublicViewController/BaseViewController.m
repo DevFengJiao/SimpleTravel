@@ -19,6 +19,12 @@
     // Do any additional setup after loading the view.
 //    sdklfjklsdf
     NSLog(@"124124");
+    NSLog(@"22222");
+    NSLog(@"124124");
+    NSLog(@"22222");
+    NSLog(@"124124");
+    NSLog(@"22222");
+    NSLog(@"fengdada");
 }
 
 - (void)didReceiveMemoryWarning {
