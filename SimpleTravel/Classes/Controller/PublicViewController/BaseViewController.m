@@ -44,7 +44,7 @@
     
 }
 -(void)tiaon{
-    NSLog(@"");
+    NSLog(@"ewrwerwer");
 }
 
 - (void)didReceiveMemoryWarning {
