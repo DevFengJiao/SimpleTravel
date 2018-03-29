@@ -48,7 +48,9 @@
     NSLog(@"mylf");
     NSLog(@"fengdadad");
 }
-
+-(void)fasdfa{
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
