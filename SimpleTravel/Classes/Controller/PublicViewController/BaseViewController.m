@@ -43,6 +43,9 @@
 -(void)fdea{
     
 }
+-(void)tiaon{
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
