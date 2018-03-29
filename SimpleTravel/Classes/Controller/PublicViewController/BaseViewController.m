@@ -46,6 +46,7 @@
 }
 -(void)my{
     NSLog(@"mylf");
+    NSLog(@"fengdadad");
 }
 
 
