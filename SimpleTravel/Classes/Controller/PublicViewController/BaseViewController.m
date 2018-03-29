@@ -28,9 +28,9 @@
 }
 
 -(void)fke{
-    NSLog(@"f1");
-    NSLog(@"f1");
-    NSLog(@"f1");
+    NSLog(@"f10000");
+    NSLog(@"f1000000");
+    NSLog(@"f100000");
 }
 
 
