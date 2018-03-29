@@ -37,15 +37,15 @@
     NSLog(@"fffff");
     NSLog(@"fffff");
 }
--(void)dada{
-    NSLog(@"dada");NSLog(@"dada");NSLog(@"dada");
-}
+
 -(void)fdea{
     
 }
 -(void)tiaon{
     NSLog(@"ewrwerwer");
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
