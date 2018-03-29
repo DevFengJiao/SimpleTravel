@@ -33,7 +33,7 @@
     NSLog(@"f1");
 }
 -(void)fengj{
-    
+    NSLog(@"fffff");
 }
 
 - (void)didReceiveMemoryWarning {
