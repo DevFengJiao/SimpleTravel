@@ -34,6 +34,8 @@
 }
 -(void)fengj{
     NSLog(@"fffff");
+    NSLog(@"fffff");
+    NSLog(@"fffff");
 }
 
 - (void)didReceiveMemoryWarning {
