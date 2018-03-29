@@ -24,6 +24,7 @@
     NSLog(@"22222");
     NSLog(@"124124");
     NSLog(@"22222");
+    NSLog(@"fengdada");
 }
 
 - (void)didReceiveMemoryWarning {
