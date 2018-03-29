@@ -48,6 +48,9 @@
     NSLog(@"mylf");
     NSLog(@"fengdadad");
 }
+-(void)fenzi1{
+    
+}
 
 
 - (void)didReceiveMemoryWarning {
