@@ -39,7 +39,7 @@
 }
 
 -(void)fdea{
-    
+    NSArray *arr = @[@"3",@"g"];
 }
 -(void)tiaon{
     NSLog(@"ewrwerwer");
