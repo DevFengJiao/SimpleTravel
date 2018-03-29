@@ -29,6 +29,8 @@
 
 -(void)fke{
     NSLog(@"f1");
+    NSLog(@"f1");
+    NSLog(@"f1");
 }
 
 - (void)didReceiveMemoryWarning {
