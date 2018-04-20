@@ -28,18 +28,20 @@
 }
 
 -(void)fke{
-    NSLog(@"f1");
-    NSLog(@"f1");
-    NSLog(@"f1");
-}
--(void)fengj{
-    NSLog(@"fffff");
-    NSLog(@"fffff");
-    NSLog(@"fffff");
+    NSLog(@"f10000");
+    NSLog(@"f1000000");
+    NSLog(@"f100000");
+    NSLog(@"f10000");
+    NSLog(@"f1000000");
+    NSLog(@"f100000");
+    NSLog(@"f10000");
+    NSLog(@"f1000000");
+    NSLog(@"f100000");
 }
 
+
 -(void)fdea{
-    NSArray *arr = @[@"3",@"g"];
+    
 }
 -(void)tiaon{
     NSLog(@"ewrwerwer");
